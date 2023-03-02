@@ -1,0 +1,2154 @@
+/*UTILITY*/
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 9pt;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: black;
+	border-color: black;
+	border-radius: 0;
+}
+
+.custom-checkbox .custom-control-label::before {
+	border-radius: 0;
+}
+
+.carousel-cell b {
+	color: red;
+}
+
+.slideHotSale .carousel-cell {
+	width: 12.8rem;
+}
+
+.bestSeller .carousel-cell {
+	width: 13.6rem;
+}
+
+.bestSeller .btnCart {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-right: -4px;
+}
+
+.bestSeller .btnBeli {
+	font-size: 12px;
+	padding: 8px 10px;
+	border-radius: 0;
+	border-color: gray;
+}
+
+.bestSeller .btnLike {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-left: -4px;
+}
+
+.bestSeller a {
+	color: black;
+}
+
+.bestSeller img {
+	margin: 10px 0;
+}
+
+.bestSeller p {
+	margin: 3px;
+}
+
+.bestSeller {
+	margin-top: 100px;
+}
+
+.bestSeller h3 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+.bestSeller .allHotSale button {
+	border-radius: 0;
+	border-color: #ffc107;
+	color: black;
+}
+
+.bestSeller .allHotSale button:hover {
+	color: white;
+}
+
+.slideHotSale .btnCart {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-right: -4px;
+}
+
+.slideHotSale .btnBeli {
+	font-size: 12px;
+	padding: 8px 10px;
+	border-radius: 0;
+	border-color: gray;
+}
+
+.slideHotSale .btnLike {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-left: -4px;
+}
+
+.slideHotSale a {
+	color: black;
+}
+
+.slideHotSale img {
+	margin: 10px 0;
+}
+
+.slideHotSale p {
+	margin: 3px;
+}
+
+.ribbon {
+	background-color: #ea181e;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border-radius: 50px;
+}
+
+.ribbon p {
+	color: #fff;
+	display: block;
+	margin: 0 !important;
+	padding: 4px 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.slideHotSale .ribbon {
+	right: 25px;
+	top: 25px;
+}
+
+.bestSeller .ribbon {
+	right: 25px;
+	top: 25px;
+}
+
+.duration {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+
+.ui-slider-horizontal {
+    height: 6px;
+    background: #f3f3f3;
+    margin: 8px 0;
+    border: none;
+}
+
+.ui-slider {
+    position: relative;
+    text-align: center;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    height: 6px;
+    font-size: .7em;
+    display: block;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: black;
+    
+    background-size: 100%;
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 50%;
+    background: black;
+    background-size: 100%;
+    width: 10px;
+    height: 10px;
+    transition: box-shadow .3s;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.ui-slider .ui-slider-handle:after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    background: black;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.2em;
+    margin-left: -.6em;
+}
+.ui-slider a:focus {
+    outline:none;
+}
+
+/*NAV-SCROLL*/
+.navGroup {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+.navScrollSH {	
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9998;
+	transition: all 0.5s;
+}
+
+.navScrollSH.scrollUp {
+	transform: translateY(-160px);
+}
+
+
+
+/*TOP HEADER*/
+.topHeader {
+	background-color: black;
+	color: white;
+}
+
+.topHeader .oriApp a {
+	color: white;
+}
+
+.topHeader .oriApp a:hover {
+	text-decoration: none;
+}
+
+.topHeader .rightHeaderMenu a {
+	color: white;
+}
+
+.topHeader .rightHeaderMenu a:hover {
+	text-decoration: none;
+}
+
+.topHeader .rightHeaderMenu .cekTransaksi {
+	border-left: 1px solid white;
+}
+
+
+/*MAIN NAV*/
+.mainNav {
+	font-size: 10pt;
+}
+
+.mainNav .navbar {
+	background-color: #161616;
+}
+
+.mainNav .navbar .navbar-nav {
+	flex-direction: inherit;
+}
+
+.mainNav .input-group .form-control:focus {
+	color: black;
+    background-color: white;
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+
+.mainNav .input-group input {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.mainNav .input-group button {
+	border-radius: 25px;
+	color: white;
+}
+
+.mainNav .navbar .navbar-nav .nav-link {
+	color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.mainNav .navbar .navbar-nav .nav-link:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+.mainNav .navbar .navbar-nav .register {
+	border: 1px solid lightgray;
+	padding: 8px 18px;
+}
+
+.mainNav .navbar .navbar-nav .register:hover {
+	border: 1px solid #e5ac27;
+	color: #e5ac27;
+}
+
+.mainNav .outter-badge {
+	position: relative;
+	margin: 8px;
+	width: 20px;
+	margin-right: 13px;
+}
+.mainNav .inner-badge {
+	display: table;
+	position: absolute;
+	top: -5px;
+	right: -10px;
+	background-color: #e5ac27;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 1px 5px;
+}
+.mainNav .inner-badge p{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.mainNav .dropdown .dropdown-item {
+	font-size: 13px;
+}
+
+.mainNav .dropdown .dropdown-item.active, .dropdown-item:active {
+	background-color: black;
+}
+
+
+
+
+
+/*MEGA MENU*/
+.megaMenu .navbar {
+	background-image: linear-gradient(#f2f2f2, #f7f7f7, #f2f2f2);
+}
+
+.megaMenu .navbar .navbar-nav .nav-link {
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+.megaMenu .navbar .collapse .nav-link {
+	padding: 8px 20px;
+	margin-left: 15px;
+	font-size: 12px;
+}
+
+.megaMenu .navbar .collapse .subTitle {
+	margin: 0;
+	font-size: 14px;
+}
+
+.megaMenu .navbar .dropdown-menu {
+	border:none;
+	background-color: rgba(226, 226, 226, 1);
+}
+
+
+.megaMenu .navbar .navbar-toggler {
+	color: black; 
+	border-color: black;
+}
+
+.megaMenu li.nav-item:hover {
+	background-color: #e2e2e2;
+	color: black;  
+}
+
+/*PAGE CHECKOUT*/
+.bodyCheckOut {
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+.bodyCheckOut .detailCheckout .identitas {
+	border: 1px solid lightgray;
+	padding-bottom: 10px;
+}
+
+.bodyCheckOut .detailCheckout .identitas .topDetail {
+	margin: 15px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+.bodyCheckOut .detailCheckout .identitas .topDetail h6 {
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.bodyCheckOut .detailCheckout .identitas .topDetail p {
+	text-align: right;
+	margin: 0;
+	color: black;
+}
+
+.bodyCheckOut .detailCheckout .identitas .topDetail a {
+	color: black;
+}
+
+.bodyCheckOut .detailCheckout .identitas .topDetail a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.bodyCheckOut .detailCheckout .identitas .dataDiri p {
+	margin: 5px 0;
+}
+
+.bodyCheckOut .detailCheckout .kurir {
+	border: 1px solid lightgray;
+	padding: 20px 15px 0;
+}
+
+.bodyCheckOut .detailCheckout .kurir h6 {
+	font-weight: 600;
+}
+
+.bodyCheckOut .detailCheckout .kurir .table .form-check p {
+	margin-top: 2px;
+	font-weight: 400;
+}
+
+.bodyCheckOut .detailCheckout .kurir .table td {
+	border: none;
+	padding-top: 1rem;
+	padding-bottom: 0rem;
+}
+
+.bodyCheckOut .detailCheckout .kurir .table th {
+	border: none;
+	padding-bottom: 0rem;
+}
+
+.bodyCheckOut .ringkasanBelanja .input-group input {
+	border-radius: 0;
+	font-size: 13px;
+}
+
+.bodyCheckOut .ringkasanBelanja .input-group .input-group-append .btn {
+	background-color: black;
+	border-radius: 0;
+	color: white;
+	font-size: 13px;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianPembayaran {
+	color: white;
+	background-color: black;
+	padding: 8px 0 5px 10px;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianPembayaran h5 {
+	font-family: 'Lora', serif;
+	margin-left: 8px;
+}
+
+.bodyCheckOut .ringkasanBelanja .buttonPembayaran .btn-primary {
+	font-size: 12px;
+	border-radius: 0;
+	background-color: #ffa414;
+	border-color: #ffa414;
+	color: white;
+}
+
+.bodyCheckOut .ringkasanBelanja .buttonPembayaran .btn-primary:hover {
+	background-color: #fcb646;
+	border-color: #fcb646;
+}
+
+.bodyCheckOut .ringkasanBelanja .totalHarga {
+	margin-top: 10px;
+}
+
+.bodyCheckOut .ringkasanBelanja .totalHarga p {
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.bodyCheckOut .ringkasanBelanja .totalHarga h6 {
+	font-weight: 600;
+	color: red;
+}
+
+.bodyCheckOut .ringkasanBelanja .buttonPembayaran .btn-primary:not(:disabled):not(.disabled):active {
+	background-image: linear-gradient(#e08128, #c66203);
+	background-color: #e08128;
+	border-color: #e08128;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianAlamat {
+	padding: 10px 15px;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianAlamat .row	{
+	margin-bottom: 8px;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianAlamat h6 {
+	margin: 5px 0;
+	font-weight: 600;
+	font-family: 'Lora', serif;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianAlamat a {
+	color: black;
+}
+
+.bodyCheckOut .ringkasanBelanja .rincianAlamat p {
+	margin: 5px 0;
+}
+
+/*KERANJANG CHECKOUT*/
+.bodyCheckOut .daftarBarang .pilihSemua label p {
+	margin-top: 3px;
+}
+
+.bodyCheckOut .daftarBarang a {
+	cursor: pointer;
+}
+
+.bodyCheckOut a {
+	color: black;
+}
+
+/*.bodyCheckOut .daftarBarang .barangBelanja {
+	margin-left: -20px;
+}*/
+
+.bodyCheckOut .barangBelanja .catatanPenjual label {
+	margin-left: 2px;
+}
+
+.bodyCheckOut .barangBelanja .catatanPenjual input {
+	font-size: 12px;
+	border-radius: 0;
+	height: calc(1.75rem + 2px);
+}
+
+.bodyCheckOut .barangBelanja .informasiBarang h6 {
+	font-weight: 600;
+}
+
+.bodyCheckOut  .barangBelanja .jumlah button {
+	border-radius: 0;
+	border-color: lightgray;
+	height: calc(1.75rem + 2px);
+	padding: 0 6px;
+}
+
+.bodyCheckOut  .barangBelanja .jumlah .form-control {
+	height: calc(1.75rem + 2px);
+}
+
+.bodyCheckOut  .barangBelanja .lableDiskon p {
+	margin-bottom: 5px;
+}
+
+.bodyCheckOut  .barangBelanja .lableDiskon .harga {
+	color: red;
+	font-weight: 600;
+}
+
+.bodyCheckOut  .barangBelanja .lableDiskon .hargaAwal {
+	opacity: 0.8;
+	text-decoration: line-through;
+	font-size: 11px;
+}
+
+.bodyCheckOut  .barangBelanja .lableDiskon .diskon {
+	color: white;
+	background-color: black;
+	padding-left: 15px;
+	font-size: 10px;
+}
+
+.bodyCheckOut .opsiCart p {
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.bodyCheckOut .opsiCart select {
+	border-radius: 0;
+	font-size: 12px;
+	height: 90%
+}
+
+.bodyCheckOut .opsiCart input {
+	border-radius: 0;
+	font-size: 12px;
+	height: 90%
+}
+
+.bodyCheckOut .opsiCart button {
+	border-radius: 0;
+	font-size: 12px;
+	height: 60%;
+	background-color: black;
+	border-color: black;
+}
+
+
+/*BELANJA*/
+.bodyBelanja {
+	margin-top: 40px;
+	padding-bottom: 100px;
+}
+
+.bodyBelanja h6 {
+	font-family: 'Lora', serif;	
+}
+
+.bodyBelanja .onCategory {
+	display: -webkit-inline-box;
+}
+
+.bodyBelanja .onCategory p {
+	margin: 2px 5px 0;
+}
+
+.bodyBelanja .onCategory a {
+	margin: 0 5px;
+	color: gray;
+}
+
+.bodyBelanja .kategoryBelanja .menuBelanja {
+	background-color: #161616;
+	color: white; 
+}
+
+.bodyBelanja .kategoryBelanja .menuBelanja h6 {
+	font-size: 14px;
+	margin: 0;
+}
+
+/*.bodyBelanja .kategoryBelanja .in {
+  display: block;
+}
+*/
+
+.bodyBelanja .kategoryBelanja ul {
+	padding: 0 15px;
+}
+
+.bodyBelanja .kategoryBelanja ul label {
+	padding-top: 3px;
+}
+
+.bodyBelanja .kategoryBelanja .panel-heading a {
+	color: black;
+}
+
+.bodyBelanja .kategoryBelanja .panel-heading a:hover {
+	text-decoration: none;
+}
+
+.bodyBelanja .kategoryBelanja .custom-control-input:checked~.custom-control-label::before {
+	color: #fff;
+	border-color: #000;
+	background-color: #000;
+}
+
+.bodyBelanja .kategoryBelanja .custom-checkbox .custom-control-label::before {
+	border-radius: 0;
+}
+
+.bodyBelanja .kategoryBelanja #collapseFive .dotColor img {
+	width: 50%;
+}
+
+.bodyBelanja .kategoryBelanja #collapseFive .shortColor .dotColor:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.bodyBelanja .kategoryBelanja #collapseFive .shortColor .active {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.bodyBelanja .produkBelanja .bannerBelanja h4 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+.bodyBelanja .produkBelanja .bannerBelanja p {
+	margin-bottom: 10px;
+	opacity: 0.7;
+}
+
+.bodyBelanja .produkBelanja .bannerBelanja button {
+	border-radius: 0;
+	padding: 5px 15px;
+	font-size: 12px;
+	color: black;
+	margin-right: 5px;
+}
+
+.bodyBelanja .produkBelanja .jumlahProduk p {
+	margin: 10px 0;
+}
+
+.bodyBelanja .produkBelanja .jumlahProduk i {
+	margin: 13px 0;
+}
+
+.bodyBelanja .produkBelanja .listProduk .list-product-img {
+	max-height: 180px;
+}
+.bodyBelanja .produkBelanja .listProduk img {
+	margin: 10px 0;
+}
+
+.bodyBelanja .produkBelanja .listProduk p {
+	margin: 5px 0;
+}
+
+.bodyBelanja .produkBelanja .listProduk a {
+	color: black;
+}
+
+.bodyBelanja .produkBelanja .listProduk a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.bodyBelanja .produkBelanja .listProduk a,
+.bodyBelanja .produkBelanja .listProduk button {
+	margin-top: 15px;
+}
+
+.bodyBelanja .produkBelanja .listProduk .btnCart {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-right: -4px;
+}
+
+.bodyBelanja .produkBelanja .listProduk .btnBeli {
+	font-size: 12px;
+	padding: 8px 10px;
+	border-radius: 0;
+	border-color: gray;
+}
+
+.bodyBelanja .produkBelanja .listProduk .btnLike {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-left: -4px;
+}
+
+.bodyBelanja .produkBelanja .paginationBelanja a.page-link {
+    border-radius: 25px;
+    margin: 3px 3px;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+}
+
+.bodyBelanja .produkBelanja .paginationBelanja a.page-link:hover {
+    margin: 3px 3px;
+    background-color: black;
+    color: white;
+}
+
+.bodyBelanja .produkBelanja .paginationBelanja .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.bodyBelanja .produkBelanja .paginationBelanja p {
+	margin: 10px 0;
+}
+
+
+/*PUBLIC*/
+.bodyPublic {
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+.banner-advs .leftCaption {
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+    color: white;
+}
+
+.banner-advs .leftCaption h5 {
+	font-weight: 600;
+	color: #e5ac27;
+}
+
+.banner-advs .leftCaption h2 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	color: white;
+}
+
+.banner-advs .leftCaption a {
+	color: white;
+	border-radius: 0;
+	font-size: 14px;
+	border-color: #e5ac27;
+}
+
+.banner-advs .leftPublicBanner .leftCaption button:hover {
+	border-color: gray;
+}
+
+.bodyPublic .bannerPublic .leftPublicBanner .leftCaption {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-65%, -50%);
+    color: white;
+}
+
+.bodyPublic .bannerPublic .leftPublicBanner .leftCaption h5 {
+	font-weight: 600;
+	color: #e5ac27;
+}
+
+.bodyPublic .bannerPublic .leftPublicBanner .leftCaption h2 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	color: white;
+}
+
+.bodyPublic .bannerPublic .leftPublicBanner .leftCaption button {
+	color: white;
+	border-radius: 0;
+	font-size: 14px;
+	border-color: #e5ac27;
+}
+
+.bodyPublic .bannerPublic .leftPublicBanner .leftCaption button:hover {
+	border-color: gray;
+}
+
+.bodyPublic .bannerPublic .backgroundPublic img {
+	height: 300px;
+}
+
+.banner-advs .rightPublicBanner {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.banner-advs .rightPublicBanner img {
+	vertical-align: middle;
+}
+
+.banner-advs .rightPublicBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 97%;
+	padding: 10px;
+}
+
+.banner-advs .rightPublicBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.banner-advs .rightPublicBanner .content p {
+	margin-bottom: 2px;
+	color: #e5ac27;
+}
+
+.bodyPublic .bannerPublic .rightPublicBanner {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.bodyPublic .bannerPublic .rightPublicBanner img {
+	vertical-align: middle;
+}
+
+.bodyPublic .bannerPublic .rightPublicBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 97%;
+	padding: 10px;
+}
+
+.bodyPublic .bannerPublic .rightPublicBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.bodyPublic .bannerPublic .rightPublicBanner .content p {
+	margin-bottom: 2px;
+	color: #e5ac27;
+}
+
+.banner-advs .topCenterBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+.banner-advs .topCenterBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.banner-advs .topCenterBanner .content p {
+	margin-bottom: 0px;
+	margin-left: 5px;
+	color: #e5ac27;
+}
+
+.banner-advs .botCenterBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 90%;
+	padding: 5px 10px;
+}
+
+.rightBanner .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: calc(100% - 30px);
+    padding: 10px;
+    left: 15px;
+}
+
+.banner-advs .centerPublicBanner .topCenterBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.banner-advs .centerPublicBanner .botCenterBanner .content p {
+	margin-bottom: 0px;
+	margin-left: 5px;
+	color: #e5ac27;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner {
+	margin-bottom: 15px;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: calc(100% - 30px);
+	padding: 5px 10px;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner .content p {
+	margin-bottom: 0px;
+	margin-left: 5px;
+	color: #e5ac27;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .botCenterBanner .content {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 90%;
+	padding: 5px 10px;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner .content h6 {
+	font-family: 'Lora', serif;
+}
+
+.bodyPublic .bannerPublic .centerPublicBanner .botCenterBanner .content p {
+	margin-bottom: 0px;
+	margin-left: 5px;
+	color: #e5ac27;
+}
+
+.bodyPublic .tagPublic .searchTag p {
+	margin: 10px 0 0;
+	padding: 4px 0;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.bodyPublic .tagPublic .popularTag p {
+	margin: 10px 10px 0;
+	border: 1px solid gray;
+	padding: 4px 8px;
+	border-radius: 25px;
+}
+
+.bodyPublic .tagPublic .popularTag a {
+	color: black;
+}
+
+.bodyPublic .tagPublic .popularTag a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.bodyPublic .tagPublic .allTag p {
+	margin: 10px 10px 0;
+	border: 1px solid #e5ac27;
+	padding: 4px 8px;
+	border-radius: 25px;
+}
+
+.bodyPublic .tagPublic .allTag a {
+	color: black;
+}
+
+.bodyPublic .tagPublic .allTag a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.bodyPublic .sliderKategori {
+	background-color: black;
+	padding: 0;
+}
+
+.bodyPublic .sliderKategori .carousel {
+  background: transparent;
+  padding: 20px 0px;
+}
+
+.bodyPublic .sliderKategori .carousel-cell {
+  width: 11%;
+  margin-right: 10px;
+  border-right: 1px solid gray;
+  color: white;
+}
+
+.bodyPublic .sliderKategori .carousel-cell p {
+	margin-top: 5px;
+}
+
+.bodyPublic .sliderKategori .flickity-prev-next-button.next {
+	right: -20px
+}
+
+.bodyPublic .sliderKategori .flickity-prev-next-button.previous {
+	left: -20px;
+}
+
+.bodyPublic .slideHotSale {
+	margin-top: 50px;
+}
+
+.bodyPublic .slideHotSale h3 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+
+.bodyPublic .slideHotSale .allHotSale button {
+	border-radius: 0;
+	border-color: #ffc107;
+	color: black;
+}
+
+.bodyPublic .slideHotSale .allHotSale button:hover {
+	color: white;
+}
+
+.bodyPublic .featuredBrands {
+	margin-top: 100px;
+}
+
+.bodyPublic .featuredBrands h3 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+.bodyPublic .androidPublic {
+	margin-top: 50px;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic {
+	background-color: black;
+	padding: 35px 0;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .daftarMember i {
+	color: #efbe1c;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .daftarMember h6 {
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	color: white;
+	margin-top: 5px;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .daftarMember button {
+	color: white;
+	border-radius: 0;
+	font-size: 14px;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .daftarMember button:hover {
+	color: black;
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .appKami h5 {
+	font-family: 'Lora', serif;
+	color: white
+}
+
+.bodyPublic .androidPublic .downloadAppPublic .mobileStore img {
+	margin: 0 5px;
+}
+
+
+
+
+/*RINCIAN PRODUK*/
+.bodyRincianV1 {
+	margin-top: 40px;
+	padding-bottom: 65px;
+}
+
+.bodyRincianV1 .onCategory {
+	display: -webkit-inline-box;
+}
+
+.bodyRincianV1 .onCategory p {
+	margin: 2px 5px 0;
+}
+
+.bodyRincianV1 .onCategory a {
+	margin: 0 5px;
+	color: gray;
+}
+
+.bodyRincianV1 .rincianProdak .modelBaju #otherAngel:hover {
+	filter: opacity(50%);
+	cursor: pointer;
+}
+
+.bodyRincianV1 .rincianProdak .modelBaju .active {
+	filter: opacity(50%);
+}
+
+.bodyRincianV1 .rincianProdak .prodakRightBox {
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.bodyRincianV1 .rincianProdak .titleProdak {
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.bodyRincianV1 .rincianProdak .titleProdak h5 {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+}
+
+.bodyRincianV1 .rincianProdak .titleProdak .rating i {
+	margin-top: 3px;
+	margin-right: 4px;
+	color: #efbe1c;
+}
+
+.bodyRincianV1 .rincianProdak .titleProdak button {
+	color: gray;
+	border-radius: 0;
+	font-size: 13px;
+}
+
+.bodyRincianV1 .rincianProdak .titleProdak button:hover {
+	color: black;
+}
+
+.bodyRincianV1 .rincianProdak .deskripsiProdak .hotDeal p {
+	padding: 0 5px;
+	margin-right: 10px;
+}
+
+.bodyRincianV1 .rincianProdak .deskripsiProdak h6 {
+	font-weight: 600;
+	color: red;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox select {
+	border-radius: 0;
+	font-size: 13px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .jumlah button {
+	border-radius: 0;
+	border-color: lightgray;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .catatan input {
+	border-radius: 0;
+	border-color: lightgray;
+	font-size: 13px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton .btn-primary {
+	border-radius: 0;
+	margin-right: 5px;
+	font-size: 12px;
+	background-color: white;
+	border-color: lightgray;
+	color: black;
+	transition: 0.3s;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton .btn-secondary {
+	border-radius: 0;
+	margin-right: 5px;
+	font-size: 12px;
+	background-color: black;
+	border-color: lightgray;
+	color: white;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton .btn-primary:hover {
+	background-color: gray;
+	color: white;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton .btn-primary:hover img {
+	filter: invert(100%);
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton .btn-secondary:hover {
+	background-color: gray;
+	color: white;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton button:not(:disabled):not(.disabled):active {
+	background-color: black;
+	color: white;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .jaminan p {
+	margin: 0;
+	font-size: 11px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .cekEstimasi {
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	padding: 15px 0;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .cekEstimasi h6 {
+	font-weight: 600;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .cekEstimasi select {
+	border-radius: 0;
+	font-size: 12px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .cekEstimasi button {
+	border-radius: 0;
+	background-color: black;
+	color: white;
+	margin-top: 26px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .btnHitung button:hover {
+	background-color: #8e8e8e;
+	border-color: #8e8e8e;
+	transition: 0.2s;
+}
+
+.bodyRincianV1 .rincianProdak .fade {
+    transition: opacity .15s linear !important;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .tab-content p {
+	margin: 4px 0;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .nav-tabs .nav-link {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    border-radius: 0;
+	border-top-right-radius: 15px;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.bodyRincianV1 .rincianProdak .detailProdak .tab-content h6 {
+	background-color: lightgray;
+	font-weight: 600;
+	padding: 4px;
+}
+
+.bodyRincianV1 .listProduk img {
+	margin: 10px 0;
+}
+
+.bodyRincianV1 .listProduk p {
+	margin: 5px 0;
+}
+
+.bodyRincianV1 .listProduk a {
+	color: black;
+}
+
+.bodyRincianV1 .listProduk a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.bodyRincianV1 .listProduk button {
+	margin-top: 15px;
+}
+
+.bodyRincianV1 .listProduk .btnCart {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-right: -4px;
+}
+
+.bodyRincianV1 .listProduk .btnBeli {
+	font-size: 12px;
+	padding: 8px 10px;
+	border-radius: 0;
+	border-color: gray;
+}
+
+.bodyRincianV1 .listProduk .btnLike {
+	padding: 0px 10px;
+	border-radius: 0;
+	border-color: gray;
+	margin-left: -4px;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox {
+	background-color: #f9f9f9;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .pilihWarna {
+	background-color: #e2e2e2;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .pilihWarna p {
+	margin: 0;
+	padding: 5px 0;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .opsiLain {
+	color: white;
+	background-color: black;
+	padding: 0 0 120px;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .opsiLain i {
+	font-size: 25px;
+	margin-top: 3px;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .opsiLain p {
+	margin: 0;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .urutan {
+	margin-right: 10px;
+	background-color: gray;
+	padding: 5px 10px;
+	border-radius: 100px;
+}
+
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .boHover {
+	cursor: pointer;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .aktifColor .boHover:hover {
+	background-image: url(../assets/ikon_alert/checked.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .customisasiBox .aktifColor .active {
+	background-image: url(../assets/ikon_alert/checked.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .opsiLain .otherCustom {
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .opsiLain .otherCustom:hover {
+	background-color: #f9f9f9; 
+	color: black;
+	border-right: 2px solid #efd91f;
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .opsiLain .otherCustom:hover img {
+	filter: invert(100%);
+}
+
+.bodyRincianV1 .detailProdak .prodakRightBox .opsiLain .active {
+	background-color: #f9f9f9; 
+	color: black;
+	border-right: 2px solid #efd91f;
+}
+
+.bodyRincianV1 .detailProdak .tab-content .review {
+	border-radius: 3px;
+} 
+
+.bodyRincianV1 .detailProdak .tab-content #ulasan .fa-star {
+	color: #efbe1c;
+}
+
+.bodyRincianV1 .detailProdak .tab-content #ulasan .fa-thumbs-o-up {
+	color: gray;
+}
+
+.bodyRincianV1 .detailProdak .tab-content #ulasan .fa-thumbs-o-up:hover {
+	color: black;
+}
+
+
+/*KONFIRMASI PESANAN*/
+.KonfirmasiPesanan {
+	margin-top: 40px;
+	padding-bottom: 160px;
+}
+
+
+/*AKUN*/
+.akunSaya {
+	padding: 40px 0 150px;
+}
+
+.akunSaya .menuAkun a {
+	display: block;
+	margin: 15px 0;
+	color: black;
+	font-size: 14px;
+}
+
+.akunSaya .infoKontak .biodata p {
+	min-width: 100px;
+	margin-bottom: 25px;
+}
+
+.akunSaya .infoKontak .biodata a {
+	color: black;
+	text-decoration: underline;
+}
+
+.js .input-file-trigger {
+  display: block;
+  padding: 10px 5px;
+  background: gray;
+  color: #000;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 5px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: lightgray;
+  color: gray;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+  content: "Ubah ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.akunSaya .infoKontak form {
+  text-align:center;
+}
+
+
+.modalTambah .modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem -2rem;
+}
+
+.modalTambah .custom-control-label::before {
+    margin-top: -3px;
+}
+
+.modalTambah .custom-control-label::after {
+    margin-top: -3px;
+}
+
+.modalTambah .form-control {
+	font-size: 11px;
+}
+
+.akunSaya .ulasan .custom-switch .custom-control-label::before {
+	margin-top: -3px;
+}
+
+.akunSaya .ulasan .custom-switch .custom-control-label::after{
+	margin-top: -3px;
+}
+
+.akunSaya .ulasan .fa-star {
+	color: #efbe1c;
+	font-size: 18px;
+}
+
+
+/*Other Choice*/
+.otherChoice {
+	padding: 25px 0;
+	background-color: #e8ebef;
+}
+
+.otherChoice h5 {
+	font-family: 'Lora', serif;
+	margin: 20px 0;
+	font-weight: 600;
+}
+
+.otherChoice p {
+	padding: 0 14px;
+}
+
+.otherChoice a {
+	color: #efbe1c;
+}
+
+
+/*FOOTER V2*/
+.footerCheckOut .footerTopWrapper {
+	padding: 50px 0;
+	color: white;
+	background-color: #161616;
+}
+
+.footerCheckOut .textFooter p {
+	text-align: justify;
+	line-height: 1.8;
+}
+
+.footerCheckOut .footerMenus .col-md-3 h5 {
+	font-family: 'Lora', serif;
+	margin: 15px 0 20px;
+}
+
+.footerCheckOut .footerMenus .col-md-3 li {
+	margin-top: 10px;
+}
+
+.footerCheckOut .footerMenus ul {
+	padding-left: 15px;
+}
+
+.footerCheckOut .footerMenus .allMenus ul, li {
+	list-style: none;
+}
+
+.footerCheckOut .footerMenus .allMenus li:before {
+	content: '\f10c';
+	font-family: 'FontAwesome';
+	float: left;
+	margin-left: -1.5em;
+	color: #d6ad3b;
+}
+
+.footerCheckOut .footerMenus .allMenus li a {
+	color: white;
+}
+
+.footerCheckOut .footerMenus .footerSocialMedia img {
+	margin-right: 5px;
+}
+
+.footerBotWrapper {
+	background-color: black;
+	padding: 20px 0;
+	color: white;
+}
+
+.footerBotWrapper p {
+	margin: 0;
+}
+
+.footerBotWrapper .copyRight b {
+	color: #d6ad3b;
+}
+
+.footerBotWrapper .payment img {
+	margin: 0 5px;
+}
+
+
+
+/*PAGE LOGIN*/
+.headLogin {
+	background-color: black;
+	color: white;
+	padding: 10px 0;
+}
+
+.headLogin .bd-highlight .p-2 a {
+	color: white;
+}
+
+.headLogin .bd-highlight .p-2 span {
+	border: 1px solid #ad7c00;
+	padding: 2px 5px;
+	margin-left: 5px;	
+}
+
+.bodyLogin .oriBodyLogo {
+	display: inline-block;
+}
+
+.bodyLogin .formLogin {
+	display: inline-block;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+}
+
+
+
+/*RESPONSIVE MIN*/
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 425px) {
+
+}
+
+@media (min-width: 765px) {
+
+}
+
+@media (min-width: 992px) {
+	/*TOP HEADER*/
+	.topHeader .rightHeaderMenu .cekTransaksi {
+		border-left: 1px solid white;
+	}
+
+	.navGroup .mainNav .searchTab {
+		display: none;
+	}
+
+	.navGroup .mainNav .searchDesk {
+		display: contents;
+	}
+
+
+	/*MAIN NAV*/
+	.mainNav .navbar-nav .lineSide {
+		border-left: 1px solid;
+		border-right: 1px solid;
+		border-color: rgba(204, 204, 204, 0.2);
+	}
+
+	.mainNav .table-responsive {
+		width: unset;
+		overflow-x: unset;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+
+	.mainNav .input-group { 
+		max-width: 50%;
+	}
+
+
+	/*MEGA MENU*/
+	.megaMenu .navbar {
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+
+	.megaMenu .navbar .navbar-brand {
+		display: none;
+	}
+
+	.megaMenu .navbar .navbar-nav .nav-link:hover {
+		color: black;
+	}
+
+	.megaMenu li.nav-item.dropdown {
+		border-right: 1px solid;
+		border-color: rgba(226, 226, 226, 0.5);
+		margin: 0;
+	}
+
+	.megaMenu li.nav-item.dropdown:hover {
+		background-color: #e2e2e2;  
+	}
+
+	.megaMenu li.nav-item {
+		border-right: 1px solid;
+		border-color: rgba(226, 226, 226, 0.5);
+		margin: 0;
+	}
+
+	.megaMenu .navbar .nav-item {
+		padding:.15rem .15rem;
+	}
+
+	.megaMenu .navbar .dropdown {
+		position: static;
+	}
+
+	.megaMenu .navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: auto;
+	}
+
+	.megaMenu .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+		display:block!important;
+	}
+
+	/*PAGE CHECKOUT*/
+	/*.bodyCheckOut {
+		margin-top: 200px;
+	}*/
+
+	.bodyCheckOut .barangBelanja .lableDiskon p {
+		margin-bottom: 0;
+		width: 68px;
+	}
+
+	/*PUBLIC*/
+	/*.bodyPublic {
+		margin-top: 200px;
+	}*/
+
+	.bodyPublic .androidPublic .downloadAppPublic .daftarMember {
+		border-right: 1px solid rgba(196, 196, 196, 0.3);
+	}
+
+	.bodyPublic .androidPublic .downloadAppPublic .daftarMember {
+		padding: 0 150px;
+	}
+
+	
+	/*RINCIAN PRODUK*/
+	/*.bodyRincianV1 {
+		margin-top: 200px;
+	}*/
+
+
+	/*FOOTER V2*/
+	.footerCheckOut {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+	.footerCheckOut .footerMenus .allMenus {
+		border-right: 1px solid;
+		border-right-color: #353535 !important;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+/*RESPONSIVE MAX*/
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 992px) {
+	.navScrollSH.scrollUp {
+		transform: translateY(-245px);
+	}
+
+	.navGroup .mainNav .searchTab {
+		display: contents;
+	}
+
+	.navGroup .mainNav .searchDesk {
+		display: none;
+	}
+
+
+	/*BELANJA*/
+	/*.bodyBelanja {
+		margin-top: 230px;
+		padding-bottom: 250px;
+	}*/
+
+	/*PUBLIC*/
+	.bodyPublic {
+		/*margin-top: 230px;*/
+		padding-bottom: 50px;
+	}
+
+	.bodyPublic .tagPublic .popularTag p {
+		min-width: 170px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.bodyPublic .tagPublic .allTag {
+		display: none;
+	}
+
+	.bodyPublic .sliderKategori .carousel-cell {
+		width: 20%;
+		margin-right: 10px;
+		border-right: none; 
+		color: white;
+	}
+
+	.bodyPublic .bannerPublic .centerPublicBanner .topCenterBanner .content {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0); /* Fallback color */
+		background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		color: #f1f1f1;
+		width: 87%;
+		padding: 5px 10px;
+	}
+
+	.bodyPublic .bannerPublic .centerPublicBanner .botCenterBanner .content {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0); /* Fallback color */
+		background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		color: #f1f1f1;
+		width: 87%;
+		padding: 5px 10px;
+	}
+
+	/*.KonfirmasiPesanan {
+		margin-top: 250px;
+		padding-bottom: 65px;
+	}*/
+
+}
+
+@media (max-width: 765px) {
+	.navScrollSH.scrollUp {
+		transform: translateY(-210px);
+	}
+
+
+	.topHeader .rightHeaderMenu {
+		display: none;
+	}
+
+	.bodyCheckOut .ringkasanBelanja {
+		margin: 100px 0;
+	}
+
+	.bodyRincianV1 .rincianProdak .prodakRightBox {
+		border-left: 1px solid lightgray;
+	}
+
+	.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .jumlah input {
+		padding: 6px 0;
+	}
+
+	.bodyCheckOut  .daftarBarang .barangBelanja .jumlah input {
+		padding: 6px 0;
+	}
+
+	.bodyCheckOut .daftarBarang .pilihSemua {
+		margin-top: 50px;
+	}	
+
+	.bodyBelanja .produkBelanja .backgroundBelanja {
+		background-image: url(../assets/banner/banner.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+}
+
+@media (max-width: 425px) {
+
+	.bodyPublic .iconSlidePub{
+		width: 70px;
+	}
+
+	.bodyPublic .sliderKategori .carousel-cell {
+		width: 25%;
+		margin-right: 10px;
+		border-right: none; 
+		color: white;
+	}
+
+	.bodyPublic .tagPublic .popularTag p {
+		min-width: 170px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.bodyPublic .tagPublic .allTag {
+		display: none;
+	}
+
+	.bodyPublic .slideHotSale .carousel-cell {
+		width: 55%;
+	}
+
+	.bodyPublic .bestSeller .carousel-cell {
+		width: 55%;
+	}
+
+
+	.bodyCheckOut .bestSeller .carousel-cell {
+		width: 55%;
+	}
+
+	.bodyRincianV1 .bestSeller .carousel-cell {
+		width: 55%;
+	}
+
+
+	/*CHECKOUT*/
+	.bodyCheckOut .detailCheckout .kurir table {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+
+
+	/*FOOTER V2*/
+	.footerCheckOut .oriFooterLogo {
+		margin: 5px 0 30px;
+	}
+
+	.footerCheckOut .textFooter p {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 375px) {
+	.navScrollSH.scrollUp {
+		transform: translateY(-230px);
+	}
+
+	.bodyPublic .slideHotSale .carousel-cell {
+		width: 75%;
+	}
+
+	.bodyPublic .bestSeller .carousel-cell {
+		width: 75%;
+	}
+
+	.bodyCheckOut .bestSeller .carousel-cell {
+		width: 75%;
+	}
+
+	.bodyRincianV1 .bestSeller .carousel-cell {
+		width: 75%;
+	}
+
+	.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox label {
+		font-size: 10px;
+	}
+
+	.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .jumlah button {
+		padding: 6px 11px;
+	}
+
+	.bodyRincianV1 .rincianProdak .detailProdak .prodakRightBox .confirmButton button {
+		font-size: 11px !important;
+	}
+
+	.bodyCheckOut  .daftarBarang .barangBelanja .jumlah button {
+		padding: 6px 11px;
+	}
+}
+
+
+
+/*BOX COLOR*/
+.boxColor {
+	width: 5px;
+	height: 30px;
+	background-color: #455890;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor2 {
+	width: 25px;
+	height: 30px;
+	background-color: #3E1F24;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor3 {
+	width: 25px;
+	height: 30px;
+	background-color: #83868D;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor4 {
+	width: 25px;
+	height: 30px;
+	background-color: #2A4057;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor5 {
+	width: 25px;
+	height: 30px;
+	background-color: #181D21;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor6 {
+	width: 25px;
+	height: 30px;
+	background-color: #5F6273;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor7 {
+	width: 25px;
+	height: 30px;
+	background-color: #440E62;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor8 {
+	width: 25px;
+	height: 30px;
+	background-color: #175F6B;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor9 {
+	width: 25px;
+	height: 30px;
+	background-color: #014A81;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor10 {
+	width: 25px;
+	height: 30px;
+	background-color: #2E3192;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.boxColor11 {
+	width: 25px;
+	height: 30px;
+	background-color: #005826;
+	margin-left: 10px;
+	flex: 0;
+}
+
+.font-orange {
+	color: #ff5900;
+}
+
+
+/*CSS FIXED*/
+.megaMenu.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: 0.5s ease;
+}
+/*CSS FIXED End*/
